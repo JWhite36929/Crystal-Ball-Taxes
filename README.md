@@ -1,3 +1,7 @@
+### Preface
+This project was developed by a team of 3 for the Intro to Software Engineering class at Georgia Southern University. I was unable to fork the repo so I downloaded a copy to upload to my personal github. 
+I was responsible for implementing the backend functionality with a focus on SQLite and firebase Auth.
+
 Welcome to the Crystal Ball Taxes!
 
 This app is designed to make tax filing simple and efficient. Built with Android Studio and Java, this app guides users through creating an account, logging in, and entering necessary tax information to calculate their income tax. The app is a useful tool for individuals who want to quickly determine their income tax liability in a user-friendly and secure environment.
