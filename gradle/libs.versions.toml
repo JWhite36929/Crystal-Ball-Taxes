@@ -1,0 +1,89 @@
+[versions]
+activityVersion = "1.7.2"
+agp = "8.6.1"
+androidxJunit = "1.1.5"
+appcompatVersion = "1.6.1"
+core = "1.6.1"
+coreVersion = "1.5.0"
+dexmakerMockito = "2.28.3"
+espressoCoreVersion = "3.5.1"
+espressoIntentsVersion = "3.5.1"
+firebaseBom = "33.4.0"
+firebaseBomVersion = "32.2.3"
+googleFirebaseBom = "33.5.1"
+googleServices = "4.4.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+materialVersion = "1.9.0"
+mockitoAndroid = "5.7.0"
+mockitoCore = "4.0.0"
+mockitoCoreVersion = "5.7.0"
+playServicesAuth = "21.2.0"
+firebaseAuth = "23.0.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAnalytics = "22.1.2"
+mockito = "5.7.0"  # Updated to latest
+robolectricVersion = "4.9"
+rules = "1.5.0"
+runner = "1.5.2"
+test-runner = "1.6.2"
+test-rules = "1.6.1"
+robolectric = "4.11.1"
+espressoIntents = "3.6.1"
+truth = "1.6.0"
+byte-buddy = "1.14.11"
+
+[libraries]
+activity-v172 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+com-google-firebase-firebase-auth2 = { module = "com.google.firebase:firebase-auth" }
+com-google-firebase-firebase-auth3 = { module = "com.google.firebase:firebase-auth" }
+core = { module = "androidx.test:core", version.ref = "core" }
+core-v150 = { module = "androidx.test:core", version.ref = "coreVersion" }
+dexmaker-mockito = { module = "com.linkedin.dexmaker:dexmaker-mockito", version.ref = "dexmakerMockito" }
+espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+espresso-intents-v351 = { module = "androidx.test.espresso:espresso-intents", version.ref = "espressoIntentsVersion" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3223 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-bom-v3351 = { module = "com.google.firebase:firebase-bom", version.ref = "googleFirebaseBom" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+byte-buddy = { group = "net.bytebuddy", name = "byte-buddy", version.ref = "byte-buddy" }
+byte-buddy-agent = { group = "net.bytebuddy", name = "byte-buddy-agent", version.ref = "byte-buddy" }
+junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+mockito-android-v570 = { module = "org.mockito:mockito-android", version.ref = "mockitoAndroid" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mockito-android = { group = "org.mockito", name = "mockito-android", version.ref = "mockito" }
+mockito-core-v400 = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+mockito-core-v570 = { module = "org.mockito:mockito-core", version.ref = "mockitoCoreVersion" }
+robolectric-v49 = { module = "org.robolectric:robolectric", version.ref = "robolectricVersion" }
+rules-v150 = { module = "androidx.test:rules", version.ref = "rules" }
+runner-v152 = { module = "androidx.test:runner", version.ref = "runner" }
+test-runner = { group = "androidx.test", name = "runner", version.ref = "test-runner" }
+test-rules = { group = "androidx.test", name = "rules", version.ref = "test-rules" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+com-google-firebase-firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+espresso-intents = { group = "androidx.test.espresso", name = "espresso-intents", version.ref = "espressoIntents" }
+truth = { module = "androidx.test.ext:truth", version.ref = "truth" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

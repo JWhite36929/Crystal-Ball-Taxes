@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Crystal Ball Taxes</string>
+    <string name="select">Select Item</string>
+    <string-array name="relationships">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+    </string-array>
+</resources>
